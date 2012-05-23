@@ -20,21 +20,23 @@ Or install it yourself as:
 
     require 'bluecoat'
 
-### connect to ProxySG Box
+### Proxy SG
+#### connect
     sg = BlueCoat::SG.new({
       :host => "bluecoatsg.local",
       :user => "admin",
       :pass => "password"
     })
 
-### fetch whole policy
+#### fetch whole policy
     policy = sg.fetch_policy
 
-### fetch a defined subnet
+#### fetch a defined subnet
     subnet = sg.fetch_subnet "subnet1"
 
 
-### connect to Reporter
+### Reporter
+#### connect
     bc = BlueCoat::Reporter.new({
       :host => "bluecatreporter.local",
       :user => "admin",
@@ -42,7 +44,7 @@ Or install it yourself as:
       :role => "admin"    # choose existant role on reporter
     })
 
-### fetch a report from reporter through WEB API
+#### fetch a report from reporter through WEB API
 
 Give parameters as specified by the Blue Coat Reporter WEB API. The result
 is a two dimensional array rows/columns.
