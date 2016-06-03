@@ -3,7 +3,7 @@ require File.expand_path('../lib/bluecoat/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Lothar Handl"]
-  gem.email         = ["lothar.handl@3beg.at"]
+  gem.email         = ["lothar.handl@know-how.io"]
   gem.description   = %q{A bundle of functions for accessing Blue Coat Appliances. I.e. Reporter, ProxySG, etc.}
   gem.summary       = %q{A bundle of functions for accessing Blue Coat Appliances.}
   gem.homepage      = "https://github.com/terracor/bluecoat"
