@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["lothar.handl@know-how.io"]
   gem.description   = %q{A bundle of functions for accessing Blue Coat Appliances. I.e. Reporter, ProxySG, etc.}
   gem.summary       = %q{A bundle of functions for accessing Blue Coat Appliances.}
-  gem.homepage      = "https://github.com/terracor/bluecoat"
+  gem.homepage      = "https://github.com/lhandl/bluecoat"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

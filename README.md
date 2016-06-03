@@ -46,8 +46,7 @@ Or install it yourself as:
 
 #### fetch a report from reporter through WEB API
 
-Give parameters as specified by the Blue Coat Reporter WEB API. The result
-is a two dimensional array rows/columns.
+Give parameters as specified by the Blue Coat Reporter WEB API as described in the Reporter Administrators Guide. The result is a two dimensional array rows/columns.
 
     result = bc.fetch_report({
       :database => "databasename",
